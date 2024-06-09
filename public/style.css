@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #ececec, #f6f6f6);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2d2d2d;
+    font-size: 2em;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+span{
+    color: grey;
+    font-weight: bolder;
+}
+span:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bolder;
+    text-decoration: dotted underline;
+    color: skyblue;
+}
+
+.post {
+    width: 60%;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.username {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3b5998;
+    margin: 0;
+}
+
+.content {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+}
+
+.post:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* Hover Effects */
+.post .username:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3b5998;
+}
+
+.post .content:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .username, .content {
+        font-size: 0.9em;
+    }
+}
+
+
+/* Form Styling */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: -100px; */
+    /* padding: 10px; */
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a4887;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+div form{
+    margin-left: 0px;
+    box-shadow: 0 0px 0px white;
+}
