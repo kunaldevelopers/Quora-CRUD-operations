@@ -16,17 +16,17 @@ This project is a simple RESTful API built with Express.js that simulates a Quor
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/kunaldevelopers/Quora-CRUD-operations
    ```
 
 2. Navigate to the project directory:
    ```sh
-   cd <project-directory>
+   cd Quora-CRUD-operations
    ```
 
 3. Install dependencies:
    ```sh
-   npm install
+   npm install express && npm install ejs && npm install method-override && npm install uuid
    ```
 
 4. Start the server:
